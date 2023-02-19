@@ -101,6 +101,7 @@ aside{
     border: #9e768f 2px solid;
     padding: 2px;
     border-radius: 10px;
+    margin: auto;
 }
 .de1{
     width: 400px;
@@ -138,25 +139,9 @@ aside{
     border-radius: 10px;
     margin: 1px;
 }
-.fotos1{
-    display: none;
-    height: 400px;
-    width: 400px;
-    position: absolute;
-    top: 200px;
-    left: 400px;
-}
-.dep1:hover .fotos1{
-    background-color: black;
-    display: block;
-    height: 415px;
-    width: 415px;
-    border: black 2px solid;
-    border-radius: 10px;
-    position: absolute;
-    top: 0px;
-    left: 400px;
-    z-index: 1;
+.dp1{
+    border: #bb5767 solid 2px;
+    border-radius: 20px;
 }
 .dep2{
     margin: 20px;
@@ -317,17 +302,19 @@ main{
 .portada{
     display: none;
 }
+.dp1{
+    width: 480px;
+    height: 360px;
+    margin: auto;
+}
 .descrip1:hover{
     color: burlywood;
     background-color: #9e768f;
     transition: 0.5s;
     width: 600px;
-    height: 80px;
+    height: 100px;
     font-size: 20px;
     border:  solid 2px rgb(77, 32, 39);
-}
-.dep1:hover .fotos1{
-    display: none;
 }
 .contacto{
    display: none;
