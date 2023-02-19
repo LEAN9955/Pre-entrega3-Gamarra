@@ -290,9 +290,11 @@ header{
 }
 .menu li{
     margin: 20px;
+    font-size: medium;
 }
-.menu li:hover{
-    font-stretch: condensed;
+.menu li a:hover{
+    font-stretch: extra-condensed;
+    font-size: medium;
 }
 main{
     margin: 20px;
