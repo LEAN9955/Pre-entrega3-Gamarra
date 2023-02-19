@@ -16,7 +16,8 @@ header {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  margin-left: 20vw; }
+  margin-left: 20vw;
+  animation-duration: 1s; }
 
 .menu li a {
   text-decoration: none;
@@ -41,11 +42,18 @@ main {
   padding: 20px;
   background-color: #eec0c6;
   background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); }
+  main h1 {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px; }
   main h2 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    font-size: 25px;
     color: black;
     animation-duration: 1s; }
+  main p {
+    margin: 10px; }
   main form {
     background-color: hwb(232 35% 46%);
     padding: 20px;
@@ -58,15 +66,14 @@ footer {
   background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
   text-align: right;
   border: gray 2px solid;
-  align-items: center;
-  grid-area: footer; }
+  align-items: center; }
 
 .red1 {
   display: inline-block;
   font-size: 25px;
   margin-left: 70vw;
   position: relative;
-  bottom: 12px; }
+  text-align: center; }
 
 .redes {
   display: inline-block; }
@@ -94,3 +101,34 @@ footer {
 
 .whats:hover {
   transform: scale(1.2, 1.2); }
+
+@media only screen and (max-width: 768px) {
+  header {
+    height: 200px;
+    align-items: center; }
+  .logo {
+    width: 200px; }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    margin-bottom: 20px; }
+  .menu li {
+    margin: 10px;
+    font-size: medium; }
+  .menu li a:hover {
+    font-stretch: extra-condensed;
+    font-size: medium; }
+  footer {
+    display: flex;
+    align-items: center; }
+  .red1 {
+    font-size: 25px;
+    text-align: center;
+    align-content: center;
+    margin-left: 50vw;
+    position: relative;
+    margin-right: 20px; }
+  .redes {
+    display: flex;
+    margin-right: 10px; } }
