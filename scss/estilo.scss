@@ -137,4 +137,46 @@ header{
         margin-right: 10px;
     }      
 }
+@media only screen and (max-width: 480px){
+    header{
+        height: 320px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        }
+        .logo{
+            width: 200px;
+        }
+        .menu{
+            display: flex;
+            flex-direction: column;
+            margin-right: 25px;
+            margin-bottom: 20px;
+            margin: auto;
+        }
+        .menu li{
+            margin: 10px;
+            font-size: medium;
+        }
+        .menu li a:hover{
+            font-stretch: normal;
+            font-size: medium;
+        }
+        footer{
+            display: flex;
+            align-items: center;
+        }
+        .red1{
+            font-size: 15px;
+            text-align: center;
+            align-content: center;
+            margin-left: 30vw;
+            position: relative;
+            margin-right: 10px;
+        }
+        .redes{
+            display: flex;
+            margin-right: 10px;
+        }      
+    }
     
